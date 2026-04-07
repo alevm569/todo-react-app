@@ -17,6 +17,30 @@ Permite:
 - React Lazy & Suspense
 - Vitest + Testing Library
 
+## Estructura del Proyecto
+
+```
+src/
+├── components/          # Componentes de React
+│   ├── FilterButtons.jsx    # Botones de filtrado
+│   ├── Header.jsx           # Encabezado de la app
+│   ├── TaskForm.jsx         # Formulario para agregar tareas
+│   ├── TaskItem.jsx         # Componente individual de tarea
+│   └── TaskList.jsx         # Lista de tareas
+├── context/             # Context API
+│   └── TaskContext.jsx      # Contexto global de tareas
+├── hooks/               # Custom hooks
+│   └── useTasks.js          # Hook para manejar lógica de tareas
+├── test/                # Tests
+│   ├── Task.test.jsx
+│   ├── TaskItem.test.jsx
+│   └── useTask.test.jsx
+├── App.jsx              # Componente main
+├── App.css              # Estilos principales
+├── main.jsx             
+└── index.css            # Estilos globales
+```
+
 ## Ejecutar proyecto
 
 ```bash
