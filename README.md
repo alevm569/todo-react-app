@@ -22,3 +22,13 @@ Permite:
 ```bash
 npm install
 npm run dev
+```
+
+## Ejecutar tests
+
+```bash
+npm run test
+```
+
+## Enlace github
+https://github.com/alevm569/todo-react-app
